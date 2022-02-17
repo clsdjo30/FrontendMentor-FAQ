@@ -1,0 +1,36 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.bg-color {
+    height: 100vh;
+    background: rgb(112,34,195);
+    background: linear-gradient(0deg, rgba(112,34,195,1) 0%, rgba(216,45,253,1) 100%);
+    width: 800px;
+}
+.faq-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;   
+}
+.card-container {
+    position: relative;
+    margin: 20px;
+}
+.img-container {
+    width: 400px;
+    position: absolute;
+    top:-40%;
+    left: 45%;
+    transform: translate(-45%,-40%);
+    
+}
+.content {
+    color: brown;
+}
