@@ -44,6 +44,7 @@ body {
 }
 .accordeon {
     margin: 0 2rem;
+    padding-bottom: 5rem;
 }
 
 .illustration {
@@ -78,14 +79,19 @@ h1 {
     text-transform: uppercase;
     font-size: 3rem;
 }
-/* .container {
-    
-} */
+.container {
+    margin: 1rem 0;
+}
 .container .label {
     font-size: 1.5rem;
+    padding-bottom: 1rem;
 }
-.container .active .label {
-    font-weight: 900;
+.container .content {
+    padding: 0.3rem 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    font-size: 1.2rem;
 }
 .container .label::after {
     content: "";
@@ -96,13 +102,21 @@ h1 {
     background-size: contain;
     position: relatiive;
     float: right;
-
+    transition: 0.5s;
 }
-.container .content {
-    font-size: 1.2rem;
-
+/* Class active "onclick" */
+.accordeon .active .label {
+    font-weight: 900;
+    
+}
+.accordeon .active .content {
+    height: 3rem;
+}
+.accordeon .active .label::after {
+    transform: rotate(-180deg);
 }
 
+    /* Responsive */
 /* @media screen and (min-width: 700px) {
     
 } */
