@@ -6,12 +6,13 @@ This my challenge's solution
 ## My Process
 
 ### Link
--  Live Site URL: [Solution Hosted using Vercel](https://marvin-figueroa.github.io/faq-accordion-card/)
+-  Live Site URL: [Solution Hosted using Vercel](https://frontend-mentor-faq-ngedklstr-clsdjo30.vercel.app/)
 
 ### Built with
 - semantic HTML5 markup
 - CSS Flexbox
 - Media Queries
 - Vanilla JS Dom manipulation 
+
 
 
